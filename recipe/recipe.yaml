@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: draftjs_exporter
-  version: "5.2.0"
+  version: "7.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/draftjs_exporter-${{ version }}.tar.gz
-  sha256: 4d665f8c75fd173d2c99326405300e8defcf4961b9b2f16ff117486489c6760b
+  sha256: ad27634d514f8bcfb828b19cfc84a8fee7cb1f0fd706d249f70633436272d687
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
