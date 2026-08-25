@@ -3,13 +3,15 @@ About draftjs_exporter-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/draftjs_exporter-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/springload/draftjs_exporter
+Home: https://github.com/wagtail/draftjs_exporter
 
 Package license: MIT
 
 Summary: Library to convert rich text from Draft.js raw ContentState to HTML
 
-Development: https://github.com/springload/draftjs_exporter
+Development: https://github.com/wagtail/draftjs_exporter
+
+Documentation: https://wagtail.github.io/draftjs_exporter/
 
 Current build status
 ====================
